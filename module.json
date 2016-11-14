@@ -1,0 +1,12 @@
+{
+  "id": "humhubModuleExample",
+  "name": "HumHub module example",
+  "description": "This is the description of HumHub example module.",
+  "keywords": [
+    'example'
+  ],
+  "version": "1.0",
+  "humhub": {
+    "minVersion": "1.0"
+  }
+}
