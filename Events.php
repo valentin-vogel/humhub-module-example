@@ -24,7 +24,7 @@ class Events extends Object
         }
 
         $event->sender->addItem(array(
-            'label' => Yii::t('HumHubModuleExampleModule.base', 'topMenuLabel'),
+            'label' => Yii::t('BaseModule.base', 'topMenuLabel'),
             'url' => Url::to(['/humhubModuleExample/base/index']),
             'icon' => '<i class="fa fa-bug"></i>',
             'isActive' => (
