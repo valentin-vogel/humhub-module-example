@@ -2,7 +2,6 @@
 
 use humhub\widgets\TopMenu;
 use humhub\modules\dashboard\widgets\Sidebar;
-use humhub\modules\admin\widgets\AdminMenu;
 use humhub\modules\humhubModuleExample\controllers;
 
 return [

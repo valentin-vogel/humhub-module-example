@@ -1,4 +1,4 @@
-# HumHub Module Boilerplate
+# HumHub module boilerplate
 
 This is a sample module for HumHub. [HumHub](https://www.humhub.org) is an open source social network kit based on PHP Framework Yii2.
 
