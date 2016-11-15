@@ -1,13 +1,15 @@
 # HumHub Module Boilerplate
 
-## Included Example Files
-* Base Files like Module.php, config.php and module.json
-* Controller
+This is a sample module for HumHub. [HumHub](https://www.humhub.org) is an open source social network kit based on PHP Framework Yii2.
+
+## Minimum module structure
+All modules contains Module.php, config.php and module.json. 
+
+## Extend a module
+* Controllers
 * Widgets
+* Views
 * Assets
 * Translations
 * Models and Migrations
 * Commands
-
-## Required for Module
-Each module must contain Module.php, config.php and module.json
