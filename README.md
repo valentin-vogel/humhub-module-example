@@ -15,6 +15,9 @@ This module include examples for:
 * Models and Migrations
 * Commands
 
+## Gii
+You can create Modules very fast by using the Yii Generator Gii and the [HumHub Devtool Module](https://github.com/humhub/humhub-modules-devtools).
+
 ## Documentations
 * [https://www.humhub.org/docs/guide-dev-module.html](https://www.humhub.org/docs/guide-dev-module.html)
 * [http://www.yiiframework.com/doc-2.0/guide-README.html](http://www.yiiframework.com/doc-2.0/guide-README.html)
