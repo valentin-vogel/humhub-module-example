@@ -15,36 +15,36 @@ use humhub\components\behaviors\AccessControl;
  */
 class BaseController extends Controller
 {
-	/**
-	 * @var string
-	 */
-	public $subLayout = "@humhub/modules/humhubModuleExample/views/base/_layout";
+    /**
+     * @var string
+     */
+    public $subLayout = "@humhub/modules/humhubModuleExample/views/base/_layout";
 
-	/**
-	 * @return void
-	 */
-	public function init()
-	{
-		parent::init();
-	}
+    /**
+     * @return void
+     */
+    public function init()
+    {
+        parent::init();
+    }
 
-	/**
-	 * @return array
-	 */
-	public function behaviors()
-	{
-		return [
-			'acl' => [
-				'class' => AccessControl::className(),
-			]
-		];
-	}
+    /**
+     * @return array
+     */
+    public function behaviors()
+    {
+        return [
+            'acl' => [
+                'class' => AccessControl::className(),
+            ]
+        ];
+    }
 
-	/**
-	 * @return string
-	 */
-	public function actionIndex()
-	{
-		return $this->render('index');
-	}
+    /**
+     * @return string
+     */
+    public function actionIndex()
+    {
+        return $this->render('index');
+    }
 }

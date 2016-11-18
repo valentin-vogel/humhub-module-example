@@ -5,7 +5,8 @@ This is a sample module for HumHub. [HumHub](https://www.humhub.org) is an open 
 ## Minimum module structure
 All modules contains Module.php, config.php and module.json. 
 
-## Extend a module
+## Examples
+This module include examples for:
 * Controllers
 * Widgets
 * Views
@@ -13,3 +14,10 @@ All modules contains Module.php, config.php and module.json.
 * Translations
 * Models and Migrations
 * Commands
+
+## Documentations
+* [https://www.humhub.org/docs/guide-dev-module.html](https://www.humhub.org/docs/guide-dev-module.html)
+* [http://www.yiiframework.com/doc-2.0/guide-README.html](http://www.yiiframework.com/doc-2.0/guide-README.html)
+
+## HumHub Contribution
+Contribute to HumHub via GitHub. Create an Issue and a Pull Request. You have to agree the [HumHub contribution license](https://www.humhub.org/cla/).

@@ -7,7 +7,6 @@ use humhub\components\Widget;
 
 /**
  * Class BaseWidget
-
  * @package humhub\modules\humhubModuleExample\widgets
  */
 class BaseWidget extends Widget
